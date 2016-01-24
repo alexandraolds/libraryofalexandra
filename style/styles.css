@@ -1,0 +1,157 @@
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+
+    background-image: url("../images/graph.png");
+    background-size: auto;
+    background-position: 50% 0%;
+    background-repeat: repeat;
+  }
+
+  .Playfair {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+  }
+
+  #linkedin img{
+    width: 20px;
+  }
+
+  #linkedin {
+    width: 30%;
+  }  
+
+  header {
+      text-align: center;
+      background-size: cover;
+      color: white;
+    }
+    
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    }
+
+  a:hover {
+    font-weight: 900;
+  }
+
+  h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  nav {
+    height: 50px;
+    background:rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.4);
+  }
+
+  #heroContent {
+    min-height: 500px;
+    padding-top: 30px;
+  }
+  
+  #heroleftcontent {
+    width: 47%;
+    float: left;
+  }
+
+  #herorightcontent {
+    width: 80%;
+    padding-left: 20px;
+    padding-top: 1px;
+  }
+
+  #heroContent, #projectsContent, #contactContent {
+    max-width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    border-bottom: 1.5px solid black;
+  }  
+  
+  #hero{
+    padding-top: 3px;
+    }
+
+  #bio{
+      margin-left: 0
+    }
+
+  #emailform {
+      text-align: center;
+      vertical-align: center;
+      margin:auto;
+    }
+
+  #contactinfo {
+      text-align: right;
+      margin:auto;
+      vertical-align: center;
+    }
+
+  .img-circle {
+    border-radius: 50%;
+    }
+
+  ul {
+      padding: 0px,0px, 0px, 0px;
+    }
+  
+  li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    
+    #header-nav {
+      width: 30%;
+      float: right;
+    }
+
+    #hero img{
+    margin: 40px 0px 0px 0px;
+    width: 397px;
+    margin-left: 20%;
+    }
+    
+    #projects img{
+      margin: 40px 0px 0px 0px;
+      width: 60%;
+    }
+
+    .bluetext{
+      color: blue;
+    }
+
+    .projectlayout{
+      float: left;
+      padding-bottom: 40px;
+      border-bottom: 1px dashed lightgrey;
+    }
+
+    .imagewrapper{
+      float:left;
+      width: 70%;
+    }
+
+    .contentwrapper{
+      float: right;
+      width: 35%;
+      margin-top: 12px;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
