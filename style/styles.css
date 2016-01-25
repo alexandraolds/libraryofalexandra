@@ -1,4 +1,4 @@
-  body {
+body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
 
@@ -66,16 +66,15 @@
   }
 
   #herorightcontent {
-    width: 82%;
-    margin-left: 20px;
-    min-height: 50px;
+    width: 100%; 
+    min-height: 50px;  
   }
 
   #heroContent, #contactContent {
     max-width: 80%;
     margin-left:auto;
     margin-right: auto;
-    border-bottom: 1.5px solid black;
+    border-bottom: 1px solid black;
   }  
 
   #projectsContent {
@@ -140,18 +139,27 @@
 
   .projectlayout{
     float: left;
+    padding-top: 20px;
     padding-bottom: 40px;
-    border-bottom: 1px dashed lightgrey;
+    border-bottom: 1px dashed #9C9C9C;
   }
 
   .contentwrapper{
     margin-top: 12px;
     margin-left: 10%;
     }
-    
 
+    /* Tablet queries */
 
-    @media (max-width: 500px) {
+    @media (max-width: 850px) {
+      #heroleftcontent {
+        min-height: 500px;
+      }
+    }
+
+    /* Mobile queries */
+
+    @media (max-width: 550px) {    
       h1 {
         font-size: 36px;
         padding: 5px;
@@ -166,6 +174,7 @@
       #heroleftcontent {
         width: auto;
         float: none;
+        min-height: auto; 
       }
       #hero img {
         width: 95%;
