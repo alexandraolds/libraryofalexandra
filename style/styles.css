@@ -62,7 +62,7 @@ body {
   #heroleftcontent {
     width: 47%;
     float: left;
-    min-height: 500px;
+    min-height: 400px;
   }
 
   #herorightcontent {
