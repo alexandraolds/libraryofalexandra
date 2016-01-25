@@ -11,6 +11,8 @@
   .Playfair {
     font-family: 'Playfair Display', serif;
     font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
   }
 
   #linkedin {
@@ -23,22 +25,24 @@
       text-align: center;
       background-size: cover;
       color: white;
-    }
+  }
     
   a {
     color: white;
     text-decoration: none;
     font-weight: 100;
-    }
+  }
 
   a:hover {
-    font-weight: 900;
+    font-weight: 700;
   }
 
   h1 {
-      font-size: 40px;
-      text-align: center;
-    }
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
   nav {
     height: 50px;
     background:rgba(0,0,0,0.5);
@@ -58,12 +62,13 @@
   #heroleftcontent {
     width: 47%;
     float: left;
+    min-height: 500px;
   }
 
   #herorightcontent {
     width: 82%;
     margin-left: 20px;
-    min-height: 600px;
+    min-height: 50px;
   }
 
   #heroContent, #contactContent {
@@ -81,74 +86,70 @@
   
   #hero{
     padding-top: 3px;
-    }
+  }
 
   #bio{
-      margin-left: 0
-    }
+   margin-left: 0;
+  }
 
   #emailform {
-      text-align: center;
-      vertical-align: center;
-      margin:auto;
-    }
+    text-align: center;
+    vertical-align: center;
+    margin:auto;
+  }
 
   #contactinfo {
-      text-align: center;
-      margin:auto;
-    }
+    text-align: center;
+    margin:auto;
+  }
 
   .img-circle {
     border-radius: 50%;
-    }
+  }
 
   ul {
-      padding: 0px,0px, 0px, 0px;
-    }
+    padding: 0px,0px, 0px, 0px;
+  }
   
   li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
     
-    #header-nav {
-      float: right;
-      margin-right: 20px;
-    }
+  #header-nav {
+    float: right;
+    margin-right: 20px;
+  }
 
-    #hero img{
+  #hero img{
     margin: 40px 0px 0px 0px;
-    width: 76%;
+    width: 74%;
     margin-left: 20%;
+  }
+    
+  #projects img{
+    margin: 40px 0px 0px 0px;
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .bluetext{
+   color: blue;
+  }
+
+  .projectlayout{
+    float: left;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed lightgrey;
+  }
+
+  .contentwrapper{
+    margin-top: 12px;
+    margin-left: 10%;
     }
     
-    #projects img{
-      margin: 40px 0px 0px 0px;
-      width: 60%;
-    }
 
-    .bluetext{
-      color: blue;
-    }
-
-    .projectlayout{
-      float: left;
-      padding-bottom: 40px;
-      border-bottom: 1px dashed lightgrey;
-    }
-
-    .imagewrapper{
-      float:left;
-      width: 70%;
-    }
-
-    .contentwrapper{
-      float: right;
-      width: 35%;
-      margin-top: 12px;
-    }
-
-    //MEDIA QUERIES
 
     @media (max-width: 500px) {
       h1 {
@@ -163,26 +164,30 @@
         float: none;
       }
       #heroleftcontent {
-      width: auto;
-      float: none;
+        width: auto;
+        float: none;
       }
       #hero img {
-      width: 95%;
-      margin-left: inherit;
+        width: 95%;
+        margin-left: inherit;
       }
       .Playfair {
-      font-size: 42px;
+        font-size: 42px;
       }
       #projects img {
-      width: 100%;
+        width: 100%;
+        margin-left: 0px;
+        height:auto;
       }
       .contentwrapper {
-      width: 100%;
+        width: 100%;
+        margin-left: 0px;
       }
       .projectlayout {
-      padding-bottom: 20px;
+        width:100%;
+        padding-bottom: 20px;
       }
       #contactinfo {
-      text-align: center;
+        text-align: center;
       }
     }
