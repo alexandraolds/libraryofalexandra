@@ -76,6 +76,7 @@ body {
     margin-left:auto;
     margin-right: auto;
     border-bottom: 1px solid black;
+    clear:both;  /* This is new, fixes footer issue. */
   }  
 
   #projectsContent {
@@ -146,7 +147,7 @@ body {
   }
 
   .projectlayout{
-    float: left;
+    /*  float: left; */  /* This is new. This style was casuing the jumble of #projects #contact bug */
     padding-top: 20px;
     padding-bottom: 40px;
     border-bottom: 1px dashed #9C9C9C;
