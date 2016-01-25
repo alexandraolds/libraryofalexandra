@@ -57,6 +57,7 @@ body {
   #heroContent {
     min-height: 500px;
     padding-top: 30px;
+    padding-bottom: 7%;
   }
   
   #heroleftcontent {
@@ -88,7 +89,8 @@ body {
   }
 
   #bio{
-   margin-left: 0;
+    margin-left: 55%;
+    max-width: 42%;
   }
 
   #emailform {
@@ -101,7 +103,13 @@ body {
     text-align: center;
     margin:auto;
   }
-
+   
+  #robotfavicon {
+    width: 35px;
+    float: left;
+    padding: 8px;
+    margin-left: 10px;
+  }
   .img-circle {
     border-radius: 50%;
   }
@@ -128,7 +136,7 @@ body {
     
   #projects img{
     margin: 40px 0px 0px 0px;
-    height: 400px;
+    height: 40%;
     width: 80%;
     margin-left: 10%;
   }
@@ -155,17 +163,29 @@ body {
       #heroleftcontent {
         min-height: 500px;
       }
+      #hero img{
+        margin: 70px 0px 0px 0px;
+        width: 120%;
+      }
+      #herorightcontent {
+        width: 100%;
+        min-height: 50px;
+        margin-left: 30px;
     }
 
     /* Mobile queries */
 
-    @media (max-width: 550px) {    
+    @media (max-width: 650px) {    
       h1 {
         font-size: 36px;
         padding: 5px;
       }
       li {
         padding: 5px;
+      }
+      #bio{
+        margin-left: 0;
+        max-width: none;
       }
       #header-nav {
         width: auto; 
@@ -176,12 +196,17 @@ body {
         float: none;
         min-height: auto; 
       }
+      #herorightcontent {
+        width: 100%;
+        min-height: 50px;
+        margin-left: 0;
+      }
       #hero img {
         width: 95%;
         margin-left: inherit;
       }
       .Playfair {
-        font-size: 42px;
+        font-size: 52px;
       }
       #projects img {
         width: 100%;
@@ -198,5 +223,8 @@ body {
       }
       #contactinfo {
         text-align: center;
+      }
+      #robotfavicon{
+        visibility: hidden;
       }
     }
