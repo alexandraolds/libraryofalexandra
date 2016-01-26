@@ -240,3 +240,12 @@
         visibility: hidden;
       }
     }
+
+    /* Large screen queries */
+
+  @media (min-width: 1600px) {  
+    #hero img {
+    margin-left: 34%;
+    margin: 2px 0px 0px 0px;
+    width: 70%;
+  }
