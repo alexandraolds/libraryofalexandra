@@ -1,7 +1,6 @@
-body {
+  body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-
     background-image: url("../images/graph.png");
     background-size: auto;
     background-position: 50% 0%;
@@ -27,14 +26,20 @@ body {
       color: white;
   }
     
-  a {
+  nav a {
     color: white;
     text-decoration: none;
     font-weight: 100;
   }
 
-  a:hover {
+  nav a:hover {
     font-weight: 700;
+  }
+
+  #projects a{
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
   }
 
   h1 {
@@ -55,8 +60,8 @@ body {
   }
 
   #heroContent {
-    padding-top: 30px;
-    padding-bottom: 7%;
+    padding-top: 4%;
+    padding-bottom: 10%;
   }
   
   #heroleftcontent {
@@ -75,7 +80,7 @@ body {
     margin-left:auto;
     margin-right: auto;
     border-bottom: 1px solid black;
-    clear:both;  /* This is new, fixes footer issue. */
+    clear:both; 
   }  
   
   #hero{
@@ -145,7 +150,6 @@ body {
   }
 
   .projectlayout{
-    /*  float: left; */  /* This is new. This style was casuing the jumble of #projects #contact bug */
     padding-top: 20px;
     padding-bottom: 40px;
     border-bottom: 1px dashed #9C9C9C;
@@ -186,6 +190,7 @@ body {
       h1 {
         font-size: 36px;
         padding: 5px;
+        text-align: left;
       }
       li {
         padding: 5px;
