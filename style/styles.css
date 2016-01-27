@@ -21,9 +21,9 @@
   }  
 
   header {
-      text-align: center;
-      background-size: cover;
-      color: white;
+    text-align: center;
+    background-size: cover;
+    color: white;
   }
     
   nav a {
@@ -149,6 +149,15 @@
    color: blue;
   }
 
+  .underline{
+    text-decoration: underline;
+  }
+
+  #email{
+    text-decoration: none;
+    color: black;
+  }
+
   .projectlayout{
     padding-top: 20px;
     padding-bottom: 40px;
@@ -243,9 +252,9 @@
 
     /* Large screen queries */
 
-  @media (min-width: 1600px) {  
-    #hero img {
-    margin-left: 34%;
-    margin: 2px 0px 0px 0px;
-    width: 70%;
-  }
+    @media (min-width: 1600px) {  
+      #hero img {
+      margin-left: 34%;
+      margin: 2px 0px 0px 0px;
+      width: 70%;
+    }
