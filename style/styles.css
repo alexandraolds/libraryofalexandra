@@ -245,6 +245,11 @@
       #contactinfo {
         text-align: center;
       }
+
+      nav a:hover {
+      font-weight: 100;
+     }
+
       #robotfavicon{
         visibility: hidden;
       }
