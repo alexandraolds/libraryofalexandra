@@ -1,0 +1,265 @@
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    background-image: url("../images/graph.png");
+    background-size: auto;
+    background-position: 50% 0%;
+    background-repeat: repeat;
+  }
+
+  .Playfair {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  #linkedin {
+    width: 20px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+  }  
+
+  header {
+    text-align: center;
+    background-size: cover;
+    color: white;
+  }
+    
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+  }
+
+  nav a:hover {
+    font-weight: 700;
+  }
+
+  #projects a{
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  nav {
+    height: 50px;
+    background:rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.4);
+  }
+
+  #heroContent {
+    padding-top: 4%;
+    padding-bottom: 10%;
+  }
+  
+  #heroleftcontent {
+    width: 47%;
+    float: left;
+    min-height: 400px;
+  }
+
+  #herorightcontent {
+    width: 100%; 
+    min-height: 50px;  
+  }
+
+  #heroContent, #contactContent, #projectsContent {
+    max-width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    border-bottom: 1px solid black;
+    clear:both; 
+  }  
+  
+  #hero{
+    padding-top: 3px;
+  }
+
+  #bio{
+    margin-left: 55%;
+    max-width: 42%;
+  }
+
+  #emailform {
+    text-align: center;
+    vertical-align: center;
+    margin:auto;
+  }
+
+  #contactinfo {
+    text-align: center;
+    margin:auto;
+  }
+
+  #contactContent{
+    margin-bottom: 30px;
+    border-bottom: 0px solid black;
+  }
+   
+  #robotfavicon {
+    width: 35px;
+    float: left;
+    padding: 8px;
+    margin-left: 10px;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+
+  ul {
+    padding: 0px,0px, 0px, 0px;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+    
+  #header-nav {
+    float: right;
+    margin-right: 20px;
+  }
+
+  #hero img{
+    margin: 40px 0px 0px 0px;
+    width: 74%;
+    margin-left: 20%;
+  }
+    
+  #projects img{
+    margin: 40px 0px 0px 0px;
+    height: 40%;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .bluetext{
+   color: blue;
+  }
+
+  .underline{
+    text-decoration: underline;
+  }
+
+  #email{
+    text-decoration: none;
+    color: black;
+  }
+
+  .projectlayout{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #9C9C9C;
+  }
+
+  #project5{
+    border-bottom: 0px dashed #9C9C9C;
+  }
+
+  .contentwrapper{
+    margin-top: 12px;
+    margin-left: 10%;
+    }
+
+    /* Tablet queries */
+
+    @media (max-width: 900px) {
+      #heroleftcontent {
+        min-height: 400px;
+      }
+      #hero img{
+        margin: 70px 0px 0px 0px;
+        width: 120%;
+      }
+      #herorightcontent {
+        width: 100%;
+        min-height: 50px;
+        margin-left: 30px;
+      }
+      h1{
+        width:110%;
+      }
+    }
+
+    /* Mobile queries */
+
+    @media (max-width: 650px) {    
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+        text-align: left;
+      }
+      li {
+        padding: 5px;
+      }
+      #bio{
+        margin-left: 0;
+        max-width: none;
+      }
+      #header-nav {
+        width: auto; 
+        float: none;
+      }
+      #heroleftcontent {
+        width: auto;
+        float: none;
+        min-height: auto; 
+      }
+      #herorightcontent {
+        width: 100%;
+        min-height: 50px;
+        margin-left: 0;
+      }
+      #hero img {
+        width: 95%;
+        margin-left: inherit;
+      }
+      .Playfair {
+        font-size: 52px;
+      }
+      #projects img {
+        width: 100%;
+        margin-left: 0px;
+        height:auto;
+      }
+      .contentwrapper {
+        width: 100%;
+        margin-left: 0px;
+      }
+      .projectlayout {
+        width:100%;
+        padding-bottom: 20px;
+      }
+      #contactinfo {
+        text-align: center;
+      }
+
+      nav a:hover {
+      font-weight: 100;
+     }
+
+      #robotfavicon{
+        visibility: hidden;
+      }
+    }
+
+    /* Large screen queries */
+
+    @media (min-width: 1600px) {  
+      #hero img {
+      margin-left: 34%;
+      margin: 2px 0px 0px 0px;
+      width: 70%;
+    }
